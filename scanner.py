@@ -15,7 +15,7 @@ WEBHOOK        = os.environ.get("DISCORD_WEBHOOK", "")
 BASE           = "https://api.massive.com"
 MAX_PRICE      = float(os.environ.get("MAX_PRICE", "0.001"))     # 0.001 = triple-zero; try 0.01 for double-zero
 MIN_VOL_RATIO  = float(os.environ.get("MIN_VOL_RATIO", "5"))      # today's vol vs 30d avg
-MIN_DOLLAR_VOL = float(os.environ.get("MIN_DOLLAR_VOL", "1000"))  # filters dust trades
+MIN_DOLLAR_VOL = float(os.environ.get("MIN_DOLLAR_VOL", "2500"))  # filters dust trades
 TOP_N          = int(os.environ.get("TOP_N", "15"))
 LOOKBACK       = 30
 STORE_PRICE    = 0.01        # only store tickers under 1 cent (keeps history file small)
@@ -99,18 +99,21 @@ def score_bar(o, hi, lo, c, v, past_vols, prev_c, recent_ratios):
 
     if ratio < MIN_VOL_RATIO or dollar_vol < MIN_DOLLAR_VOL:
         return 0, [], {}
+    if chg >= 5.0:                              # +500% on a sub-penny = almost always a bad print
+        return 0, [], {}
 
     reasons, s = [], min(ratio, 50) * 2
+    s += min(10, 5 * math.log10(dollar_vol / MIN_DOLLAR_VOL))   # real money behind it
     if dormant:
         s += 15; reasons.append("💤 Dormant ticker waking up")
     if streak:
         s += 5 * min(streak, 4); reasons.append(f"🔁 {streak + 1} straight days of 3x+ volume")
-    if abs(chg) < 0.25 and ratio >= 8:
-        s += 10; reasons.append("🧲 Heavy volume, price barely moved (accumulation?)")
+    if abs(chg) < 0.25 and ratio >= MIN_VOL_RATIO:
+        s += 20; reasons.append("🧲 Heavy volume, price barely moved (accumulation?)")
     if hi > 0 and c >= hi * 0.98 and c > o:
         s += 5; reasons.append("📈 Closed at high of day")
     if chg > 1.0:
-        s -= 10; reasons.append("⚠️ Already up 100%+ today — may be late")
+        s -= 20; reasons.append("⚠️ Already up 100%+ today — may be late")
     return s, reasons, {"ratio": ratio, "dollar_vol": dollar_vol, "chg": chg, "streak": streak}
 
 
@@ -121,8 +124,8 @@ def scan(h):
     latest, prior = days[-1], days[:-1][-LOOKBACK:]
     hits = []
     for t, (o, hi, lo, c, v) in h["days"][latest].items():
-        if not (0 < c <= MAX_PRICE):
-            continue
+        if not (0 < c <= MAX_PRICE) or not (t.isalpha() and t.isupper()):
+            continue                                # skip rights/warrants/when-issued (e.g. BCATr)
         vols = [h["days"][d].get(t, [0, 0, 0, 0, 0])[4] for d in prior]
         prev = h["days"][prior[-1]].get(t)
         prev_c = prev[3] if prev else next((h["days"][d][t][3] for d in reversed(prior) if t in h["days"][d]), 0)
