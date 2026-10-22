@@ -1,13 +1,7 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-10-16,AHFD,0.0003,155944603.0,126.4,52.8,46783,0.0,33,28,0,🔴 Near 30d high (extended),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,XALL,0.0002,188186347.0,97.7,45.9,37637,100.0,50,9,0,🟡 Mid-range,
-2026-10-16,TSPG,0.0009,13023036.0,88.8,37.7,11721,-40.0,11,69,0,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume
-2026-10-16,VIZC,0.0001,39370371.0,75.6,27.3,3937,0.0,100,3,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,BELR,0.0002,590534998.0,72.2,16.9,118107,21.2,50,99,0,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,RDAR,0.0002,211336245.0,72.1,23.0,42267,0.0,50,126,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,EHVVF,0.0008,4433145.0,36.5,5.4,3547,-11.1,12,355,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,TMSH,0.0001,174355808.0,35.8,5.8,17436,-50.0,100,2849,0,🟡 Mid-range,🔁 5 straight days of 3x+ volume
-2026-10-16,DPUI,0.0003,41983000.0,35.2,5.8,12595,0.0,33,30,0,🔴 Near 30d high (extended),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,AXXA,0.0004,21404111.0,32.6,7.5,8562,0.0,25,249,0,🔴 Near 30d high (extended),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-16,NBND,0.0008,245995589.0,30.2,7.9,196796,88.2,12,69,0,🟡 Mid-range,🔁 2 straight days of 3x+ volume
-2026-10-16,KOAN,0.00043,25967052.0,17.8,9.8,11166,43.3,23,64,0,🔴 Near 30d high (extended),
+2026-10-21,SNWR,0.0004,448299862.0,46.1,18.4,179320,33.3,25,31,0,🔴 Near 30d high (extended),📈 Closed at high of day
+2026-10-21,MGAM,0.001,13568229.0,44.9,8.1,13568,42.9,10,724,0,🟡 Mid-range,🔁 5 straight days of 3x+ volume | 📈 Closed at high of day
+2026-10-21,MDEX,0.0003,153957154.0,43.6,11.1,46187,-40.0,33,4619,0,🟢 Near 30d low (base),🔁 3 straight days of 3x+ volume
+2026-10-21,BMXC,0.0002,42789935.0,38.8,8.1,8558,-20.0,50,5,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-21,GPFT,0.0002,205628539.0,31.6,7.8,41126,-33.3,50,1843,0,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume
+2026-10-21,XCPL,0.0002,104451100.0,25.6,8.0,20890,100.0,50,1273,0,🟡 Mid-range,🔁 2 straight days of 3x+ volume
