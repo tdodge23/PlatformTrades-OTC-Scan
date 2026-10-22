@@ -7,6 +7,7 @@ free-tier grouped daily bars (one call = whole market incl. OTC), keeps a rollin
 """
 import os, sys, json, gzip, time, csv, math, statistics, urllib.parse, datetime as dt
 from pathlib import Path
+from zoneinfo import ZoneInfo
 import requests
 
 # ---------- config (override via env vars) ----------
@@ -20,6 +21,7 @@ TOP_N          = int(os.environ.get("TOP_N", "15"))
 LOOKBACK       = 30
 STORE_PRICE    = 0.01        # only store tickers under 1 cent (keeps history file small)
 CALL_GAP       = 13          # free tier = 5 calls/min
+ET             = ZoneInfo("America/New_York")   # market dates are US Eastern
 DATA           = Path(__file__).parent / "data"
 HIST_FILE      = DATA / "history.json.gz"
 
@@ -62,7 +64,10 @@ def save_hist(h):
 
 def update_hist(h):
     """Make sure we have the latest LOOKBACK+1 trading days. First run backfills (~7 min on free tier)."""
-    need, d, calls, today = LOOKBACK + 1, dt.date.today(), 0, dt.date.today()
+    # Use the US market's date, not the server's (GitHub runs in UTC, which is
+    # already "tomorrow" by 5pm Pacific).
+    today = dt.datetime.now(ET).date()
+    need, d, calls = LOOKBACK + 1, today, 0
     have = 0
     while have < need and calls < 60:
         ds = d.isoformat()
@@ -71,7 +76,16 @@ def update_hist(h):
                 have += 1
             else:
                 if calls: time.sleep(CALL_GAP)
-                bars = fetch_grouped(ds); calls += 1
+                try:
+                    bars = fetch_grouped(ds)
+                except requests.HTTPError as e:
+                    # The free tier rejects a day that isn't finished yet. Skip it;
+                    # older days still raise so a bad API key isn't hidden.
+                    if (today - d).days > 1:
+                        raise
+                    print(f"  {ds} not available yet ({e.response.status_code}), using earlier days")
+                    bars = None
+                calls += 1
                 if bars:
                     h["days"][ds] = bars; have += 1
                     print(f"  fetched {ds}: {len(bars)} sub-penny tickers")
@@ -304,6 +318,11 @@ if __name__ == "__main__":
         sys.exit("Set MASSIVE_API_KEY")
     print("Updating history…")
     hist = update_hist(load_hist())
+    newest = sorted(hist["days"])[-1]
+    if newest in hist.get("flags", {}) and os.environ.get("FORCE") != "1":
+        # No new trading day since the last scan: don't re-post the same alerts.
+        save_hist(hist)
+        sys.exit(print(f"Already scanned {newest}; no new trading day yet.") or 0)
     sc = scorecard(hist)
     date, hits = scan(hist)
     save_hist(hist)
