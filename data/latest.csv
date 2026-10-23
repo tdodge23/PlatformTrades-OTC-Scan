@@ -1,7 +1,8 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-10-21,SNWR,0.0004,448299862.0,46.1,18.4,179320,33.3,25,31,0,🔴 Near 30d high (extended),📈 Closed at high of day
-2026-10-21,MGAM,0.001,13568229.0,44.9,8.1,13568,42.9,10,724,0,🟡 Mid-range,🔁 5 straight days of 3x+ volume | 📈 Closed at high of day
-2026-10-21,MDEX,0.0003,153957154.0,43.6,11.1,46187,-40.0,33,4619,0,🟢 Near 30d low (base),🔁 3 straight days of 3x+ volume
-2026-10-21,BMXC,0.0002,42789935.0,38.8,8.1,8558,-20.0,50,5,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-21,GPFT,0.0002,205628539.0,31.6,7.8,41126,-33.3,50,1843,0,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume
-2026-10-21,XCPL,0.0002,104451100.0,25.6,8.0,20890,100.0,50,1273,0,🟡 Mid-range,🔁 2 straight days of 3x+ volume
+2026-10-22,MDEX,0.0003,140666218.0,66.0,7.4,42200,0.0,33,4619,1,🟢 Near 30d low (base),"🔁 4 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-10-22,MGAM,0.0009,11395496.0,58.8,5.4,10256,-10.0,11,1026,1,🟡 Mid-range,"🔁 5 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-10-22,SHMN,0.0007,9262728.0,57.0,15.0,6484,-22.2,14,100,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-22,CNBX,0.0001,70035912.0,50.2,14.0,7004,0.0,100,8,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-22,RDAR,0.0002,189637260.0,49.9,9.5,37927,21.2,50,1532,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-10-22,ADHC,0.00045,29868711.0,39.5,5.4,13441,-4.3,22,1344,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-22,SRMX,0.0001,40802299.0,20.6,9.7,4080,-50.0,100,56,0,🟡 Mid-range,
