@@ -1,11 +1,8 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-10-23,STEK,0.0001,111927321.0,83.1,32.4,11193,0.0,100,3,0,🔴 Near 30d high (extended),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-23,RDAR,0.0002,395824394.0,72.9,15.2,79165,0.0,50,1532,2,🟡 Mid-range,"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
-2026-10-23,AXXA,0.0004,78791357.0,57.8,26.1,31517,33.3,25,20,1,🔴 Near 30d high (extended),🔂 Flagged 1x in last 10 days
-2026-10-23,EARI,0.0002,1252294653.0,55.1,5.0,250459,0.0,50,20315,0,🟡 Mid-range,"🔁 4 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-23,TMSH,0.0003,474453731.0,46.8,6.5,142336,20.0,33,7907,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
-2026-10-23,CNBX,0.0001,51783321.0,45.8,7.1,5178,0.0,100,8,1,🟡 Mid-range,"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
-2026-10-23,NGCG,0.0006,39796582.0,40.1,7.6,23878,20.0,17,66,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-23,HIRU,0.0006,122660879.0,37.4,5.0,73597,9.1,17,669,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-23,GTVH,0.0002,1126922013.0,24.9,7.5,225384,100.0,50,1331,0,🔴 Near 30d high (extended),📈 Closed at high of day
-2026-10-23,SEII,0.0002,336652450.0,23.7,5.8,67330,-33.3,50,6733,0,🟢 Near 30d low (base),
+2026-10-26,DRNK,5e-05,63284998.0,105.5,51.3,3164,-50.0,2,0,0,🟡 Mid-range,🔁 2 straight days of 3x+ volume
+2026-10-26,RDAR,0.00024,512334749.0,79.6,13.1,122960,20.0,42,3793,3,🟡 Mid-range,"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 3x in last 10 days"
+2026-10-26,MGAM,0.0007,40076537.0,71.2,15.5,28054,-12.5,14,1026,2,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
+2026-10-26,AITX,0.001,122118710.0,45.1,5.8,122119,-23.1,10,11671,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-26,MDEX,0.0002,275319241.0,45.0,11.6,55064,-33.3,50,4619,2,🟢 Near 30d low (base),🔂 Flagged 2x in last 10 days
+2026-10-26,CAVR,0.0002,49085225.0,41.0,9.0,9817,0.0,50,334,0,🔴 Near 30d high (extended),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-26,LTNC,0.0001,170967300.0,34.9,5.4,17097,0.0,100,1,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
