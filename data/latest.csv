@@ -1,8 +1,9 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-10-26,DRNK,5e-05,63284998.0,105.5,51.3,3164,-50.0,2,0,0,🟡 Mid-range,🔁 2 straight days of 3x+ volume
-2026-10-26,RDAR,0.00024,512334749.0,79.6,13.1,122960,20.0,42,3793,3,🟡 Mid-range,"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 3x in last 10 days"
-2026-10-26,MGAM,0.0007,40076537.0,71.2,15.5,28054,-12.5,14,1026,2,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
-2026-10-26,AITX,0.001,122118710.0,45.1,5.8,122119,-23.1,10,11671,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-26,MDEX,0.0002,275319241.0,45.0,11.6,55064,-33.3,50,4619,2,🟢 Near 30d low (base),🔂 Flagged 2x in last 10 days
-2026-10-26,CAVR,0.0002,49085225.0,41.0,9.0,9817,0.0,50,334,0,🔴 Near 30d high (extended),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-26,LTNC,0.0001,170967300.0,34.9,5.4,17097,0.0,100,1,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-27,VISM,0.0003,54185582.0,102.1,44.0,16256,-25.0,33,24,0,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume
+2026-10-27,RDAR,0.0002,384798517.0,71.3,6.9,76960,-16.7,50,7696,4,🟡 Mid-range,"🔁 4 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
+2026-10-27,AITX,0.0008,168275820.0,57.4,6.9,134621,-20.0,12,11783,1,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-10-27,MASN,0.0002,240762249.0,47.8,5.7,48152,0.0,50,1800,0,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-27,SHMN,0.0009,6845380.0,44.8,6.4,6161,22.4,11,195,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days"
+2026-10-27,BFCH,0.0002,93070000.0,36.6,6.1,18614,0.0,50,103,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-27,IDGR,0.0005,29031428.0,28.3,9.8,14516,-50.0,20,97,0,🟢 Near 30d low (base),
+2026-10-27,PRMMF,0.0004,14399000.0,22.3,10.2,5760,100.0,25,0,0,🔴 Near 30d high (extended),📈 Closed at high of day
