@@ -1,9 +1,9 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-10-27,VISM,0.0003,54185582.0,102.1,44.0,16256,-25.0,33,24,0,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume
-2026-10-27,RDAR,0.0002,384798517.0,71.3,6.9,76960,-16.7,50,7696,4,🟡 Mid-range,"🔁 4 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
-2026-10-27,AITX,0.0008,168275820.0,57.4,6.9,134621,-20.0,12,11783,1,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
-2026-10-27,MASN,0.0002,240762249.0,47.8,5.7,48152,0.0,50,1800,0,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-27,SHMN,0.0009,6845380.0,44.8,6.4,6161,22.4,11,195,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days"
-2026-10-27,BFCH,0.0002,93070000.0,36.6,6.1,18614,0.0,50,103,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-27,IDGR,0.0005,29031428.0,28.3,9.8,14516,-50.0,20,97,0,🟢 Near 30d low (base),
-2026-10-27,PRMMF,0.0004,14399000.0,22.3,10.2,5760,100.0,25,0,0,🔴 Near 30d high (extended),📈 Closed at high of day
+2026-10-28,RDAR,0.0002,581014478.0,80.3,8.5,116203,0.0,50,7916,5,🟡 Mid-range,"🔁 5 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 5x in last 10 days"
+2026-10-28,ERBB,0.0002,29342769.0,67.0,17.6,5869,0.0,50,97,0,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-28,NTRR,0.0002,101183071.0,61.1,18.3,20237,0.0,50,0,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-28,NGCG,0.0005,68555035.0,51.5,10.4,34278,-9.1,20,463,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-10-28,AITX,0.00045,242899346.0,49.5,8.1,109305,-43.8,22,11671,2,🟢 Near 30d low (base),🔁 3 straight days of 3x+ volume | 🔂 Flagged 2x in last 10 days
+2026-10-28,VISM,0.0005,32631963.0,40.6,10.7,16316,66.7,20,149,1,🟡 Mid-range,🔁 3 straight days of 3x+ volume | 🔂 Flagged 1x in last 10 days
+2026-10-28,IDGR,0.00067,26945550.0,33.0,6.8,18054,34.0,15,258,1,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume | 🔂 Flagged 1x in last 10 days
+2026-10-28,GMZP,0.0002,67627439.0,26.8,11.6,13525,-33.3,50,42,0,🟡 Mid-range,
