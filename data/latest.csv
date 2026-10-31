@@ -1,6 +1,5 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-10-29,PVSP,0.0001,79669338.0,127.5,61.0,7967,0.0,100,0,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-10-29,RDAR,0.0002,809176799.0,82.5,9.2,161835,0.0,50,11620,6,🟡 Mid-range,"🔁 5 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 6x in last 10 days"
-2026-10-29,ERBB,0.0002,15545515.0,52.2,5.9,3109,0.0,50,194,1,🟢 Near 30d low (base),"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
-2026-10-29,BTZI,0.0006,5661901.0,44.2,21.8,3397,-33.3,17,10,0,🟡 Mid-range,
-2026-10-29,WTII,0.0007,18689207.0,44.0,10.2,13082,7.7,14,95,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-10-30,AXXA,0.0006,244401021.0,112.5,46.8,146641,50.0,17,32,2,🔴 Near 30d high (extended),📈 Closed at high of day | 🔂 Flagged 2x in last 10 days
+2026-10-30,GMZP,0.0002,49550000.0,40.2,6.1,9910,0.0,50,156,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-10-30,IGEX,0.0005,31556219.0,27.4,9.2,15778,42.9,20,108,0,🟡 Mid-range,📈 Closed at high of day
+2026-10-30,IGPK,0.0004,28416973.0,18.4,5.1,11367,-42.9,25,205,0,🟢 Near 30d low (base),
