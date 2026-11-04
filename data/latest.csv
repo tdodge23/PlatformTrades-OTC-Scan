@@ -1,6 +1,6 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-02,GMZP,0.0001,347539419.0,97.0,35.7,34754,-50.0,100,991,2,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume | 🔂 Flagged 2x in last 10 days
-2026-11-02,AXXA,0.00055,127070237.0,61.5,9.6,69889,-8.3,18,32,2,🟡 Mid-range,"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
-2026-11-02,WDLF,0.000265,36721068.0,39.9,8.5,9731,6.0,38,69,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-02,MSMY,0.0007,5569815.0,35.4,7.2,3899,16.7,14,14,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-02,VIZC,0.0002,12701367.0,12.3,6.2,2540,100.0,50,15,0,🔴 Near 30d high (extended),📈 Closed at high of day
+2026-11-03,AXXA,0.0005,164165512.0,71.4,9.4,82083,-9.1,20,6989,3,🟡 Mid-range,"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 3x in last 10 days"
+2026-11-03,EHVVF,0.0005,9684500.0,50.2,11.9,4842,-16.7,20,4,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-03,WDLF,0.0004,40944020.0,29.4,7.6,16378,50.9,25,102,1,🔴 Near 30d high (extended),🔁 2 straight days of 3x+ volume | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days
+2026-11-03,MASN,0.0005,586130531.0,24.0,12.0,293065,233.3,20,131,1,🟡 Mid-range,📈 Closed at high of day | ⚠️ Already up 100%+ today — may be late | 🔂 Flagged 1x in last 10 days
+2026-11-03,FBCD,0.0004,27482662.0,15.3,6.1,10993,33.3,25,30,0,🔴 Near 30d high (extended),📈 Closed at high of day
