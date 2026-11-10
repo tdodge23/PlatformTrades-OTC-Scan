@@ -1,5 +1,10 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-06,WDLF,0.0004,371848617.0,106.9,41.5,148739,100.0,25,1638,3,🔴 Near 30d high (extended),📈 Closed at high of day | 🔂 Flagged 3x in last 10 days
-2026-11-06,AHRO,0.0003,41156898.0,43.0,7.3,12347,0.0,33,23,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day"
-2026-11-06,ADHC,0.0003,81125000.0,39.5,14.8,24337,-25.0,33,61,0,🟢 Near 30d low (base),
-2026-11-06,WTII,0.0007,28948726.0,36.1,13.3,20264,27.3,14,189,1,🟡 Mid-range,🔂 Flagged 1x in last 10 days
+2026-11-09,KYNC,0.0001,237299290.0,134.9,80.7,23730,0.0,100,26,0,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-09,GSPI,0.0002,16755985.0,105.6,141.4,3351,-71.4,50,1,0,🟢 Near 30d low (base),
+2026-11-09,CAVR,0.0003,411226960.0,103.5,45.0,123368,50.0,33,0,1,🟡 Mid-range,🔂 Flagged 1x in last 10 days
+2026-11-09,QEDN,0.0002,56955302.0,103.3,117.6,11391,100.0,50,0,0,🔴 Near 30d high (extended),📈 Closed at high of day
+2026-11-09,RDAR,0.0002,1151575080.0,63.1,9.1,230315,0.0,50,18,4,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
+2026-11-09,NBRI,0.0003,66380861.0,60.7,15.6,19914,-14.3,33,36,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-09,WDLF,0.0003,205169347.0,46.7,9.9,61551,-25.0,33,2625,4,🟡 Mid-range,🔁 2 straight days of 3x+ volume | 🔂 Flagged 4x in last 10 days
+2026-11-09,BLSP,0.0002,12519475.0,44.3,7.2,2504,0.0,50,47,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days"
+2026-11-09,RGBP,0.0001,45501879.0,27.2,12.9,4550,-33.3,100,20,0,🟡 Mid-range,
