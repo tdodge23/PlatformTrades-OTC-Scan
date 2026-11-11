@@ -1,10 +1,12 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-09,KYNC,0.0001,237299290.0,134.9,80.7,23730,0.0,100,26,0,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-09,GSPI,0.0002,16755985.0,105.6,141.4,3351,-71.4,50,1,0,🟢 Near 30d low (base),
-2026-11-09,CAVR,0.0003,411226960.0,103.5,45.0,123368,50.0,33,0,1,🟡 Mid-range,🔂 Flagged 1x in last 10 days
-2026-11-09,QEDN,0.0002,56955302.0,103.3,117.6,11391,100.0,50,0,0,🔴 Near 30d high (extended),📈 Closed at high of day
-2026-11-09,RDAR,0.0002,1151575080.0,63.1,9.1,230315,0.0,50,18,4,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
-2026-11-09,NBRI,0.0003,66380861.0,60.7,15.6,19914,-14.3,33,36,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-09,WDLF,0.0003,205169347.0,46.7,9.9,61551,-25.0,33,2625,4,🟡 Mid-range,🔁 2 straight days of 3x+ volume | 🔂 Flagged 4x in last 10 days
-2026-11-09,BLSP,0.0002,12519475.0,44.3,7.2,2504,0.0,50,47,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days"
-2026-11-09,RGBP,0.0001,45501879.0,27.2,12.9,4550,-33.3,100,20,0,🟡 Mid-range,
+2026-11-10,BYOC,0.0001,90878110.0,117.8,75.2,9088,0.0,100,4,0,🔴 Near 30d high (extended),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-10,ICTY,0.0001,105904680.0,108.1,83.4,10590,-50.0,100,6,0,🟢 Near 30d low (base),
+2026-11-10,QEDN,0.0001,64693544.0,73.2,30.6,6469,-50.0,100,5,1,🟡 Mid-range,🔁 2 straight days of 3x+ volume | 🔂 Flagged 1x in last 10 days
+2026-11-10,CAVR,0.00015,529334664.0,69.0,23.2,79400,-50.0,67,199,1,🟢 Near 30d low (base),🔁 2 straight days of 3x+ volume | 🔂 Flagged 1x in last 10 days
+2026-11-10,RDAR,0.0002,1099605999.0,63.1,6.7,219921,0.0,50,169,4,🟡 Mid-range,"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
+2026-11-10,WDLF,0.0004,269574237.0,52.8,9.8,107830,33.3,25,6155,5,🔴 Near 30d high (extended),🔁 3 straight days of 3x+ volume | 📈 Closed at high of day | 🔂 Flagged 5x in last 10 days
+2026-11-10,UMAV,0.0001,296879397.0,43.5,9.1,29688,0.0,100,371,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-10,SYIN,0.0003,41395343.0,41.2,6.4,12419,0.0,33,353,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-10,CBTC,0.000435,6695732.0,40.3,7.5,2913,-20.9,23,47,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-10,EVSV,0.0005,31778499.0,39.3,5.1,15889,-16.7,20,329,1,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-11-10,SRMX,0.0001,41570680.0,35.7,7.3,4157,0.0,100,29,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
