@@ -1,5 +1,11 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-11,RDAR,0.0002,1202023717.0,66.9,6.0,240405,0.0,50,21992,4,🟡 Mid-range,"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
-2026-11-11,PDIV,0.001,15249623.0,52.9,7.0,15250,-9.1,10,467,2,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
-2026-11-11,CRCW,0.0009,82472101.0,45.3,9.0,74225,-25.0,11,2607,1,🟡 Mid-range,🔁 4 straight days of 3x+ volume | 🔂 Flagged 1x in last 10 days
-2026-11-11,ICTY,0.0002,28502686.0,23.7,5.9,5701,100.0,50,36,1,🔴 Near 30d high (extended),🔁 2 straight days of 3x+ volume | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days
+2026-11-12,IFXY,0.0006,136183993.0,59.5,11.0,81710,0.0,17,114,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day"
+2026-11-12,DBMM,0.0006,11570635.0,58.1,15.4,6942,9.1,17,46,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day"
+2026-11-12,DRNK,0.0001,93780764.0,55.0,26.0,9378,100.0,100,0,0,🟡 Mid-range,
+2026-11-12,ICBU,0.0004,9047572.0,53.4,13.8,3619,-11.1,25,5,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-12,KOAN,0.0002,113164964.0,51.5,20.9,22633,-33.3,50,24,0,🟢 Near 30d low (base),
+2026-11-12,ICTY,0.0001,65233707.0,50.0,11.5,6523,-50.0,100,570,2,🟢 Near 30d low (base),🔁 3 straight days of 3x+ volume | 🔂 Flagged 2x in last 10 days
+2026-11-12,SYIN,0.0002,61841637.0,49.2,7.9,12368,0.0,50,395,1,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
+2026-11-12,WTII,0.0008,25490955.0,43.3,6.9,20393,0.0,12,789,2,🔴 Near 30d high (extended),"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
+2026-11-12,FBCD,0.0003,42703830.0,35.3,13.4,12811,-25.0,33,40,1,🟡 Mid-range,🔂 Flagged 1x in last 10 days
+2026-11-12,AITX,0.0003,389402819.0,28.6,5.1,116821,-25.0,33,5266,1,🟢 Near 30d low (base),🔂 Flagged 1x in last 10 days
