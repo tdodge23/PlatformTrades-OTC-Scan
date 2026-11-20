@@ -1,4 +1,8 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-18,KOAN,0.0002,452884254.0,130.5,43.9,90577,-14.9,50,824,1,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
-2026-11-18,MNDP,0.0005,10626424.0,41.9,15.1,5313,25.0,20,0,1,🔴 Near 30d high (extended),🔁 2 straight days of 3x+ volume | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days
-2026-11-18,GSPI,0.0005,5510000.0,32.8,8.8,2755,25.0,20,10,1,🟢 Near 30d low (base),📈 Closed at high of day | 🔂 Flagged 1x in last 10 days
+2026-11-19,KOAN,0.0001,565791982.0,76.3,22.3,56579,-50.0,100,824,2,🟢 Near 30d low (base),🔁 3 straight days of 3x+ volume | 🔂 Flagged 2x in last 10 days
+2026-11-19,MNDP,0.0005,15060050.0,70.9,14.3,7530,0.0,20,531,2,🟡 Mid-range,"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
+2026-11-19,DRNK,0.00015,134477361.0,57.7,9.1,20172,0.0,67,1196,4,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 4x in last 10 days"
+2026-11-19,LIVG,0.0001,161576868.0,45.8,8.4,16158,0.0,100,0,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-19,AITX,0.0003,570558961.0,35.3,5.6,171168,50.0,33,3195,2,🟢 Near 30d low (base),🔂 Flagged 2x in last 10 days
+2026-11-19,INND,0.0002,167663089.0,26.9,8.1,33533,33.3,50,105,1,🔴 Near 30d high (extended),📈 Closed at high of day | 🔂 Flagged 1x in last 10 days
+2026-11-19,MDCE,5e-05,68968400.0,17.5,5.9,3448,-50.0,2,13,0,🟢 Near 30d low (base),
