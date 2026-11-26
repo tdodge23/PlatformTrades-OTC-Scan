@@ -1,7 +1,7 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-24,SONG,0.0005,69808241.0,82.9,23.6,34904,16.3,20,53,1,🟡 Mid-range,"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 1x in last 10 days"
-2026-11-24,HIRU,0.000375,430603509.0,66.6,6.3,161476,-6.2,27,16148,2,🟢 Near 30d low (base),"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
-2026-11-24,NBRI,0.00025,37791281.0,41.0,6.6,9448,-16.7,40,217,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-24,MJNA,0.0001,65003878.0,37.7,5.3,6500,-50.0,100,650,2,🟢 Near 30d low (base),🔁 3 straight days of 3x+ volume | 🔂 Flagged 2x in last 10 days
-2026-11-24,VPER,0.0002,15020909.0,34.7,7.1,3004,-20.0,50,22,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-24,IBGR,0.0007,5600000.0,28.4,6.2,3920,27.3,14,12,1,🟡 Mid-range,🔁 2 straight days of 3x+ volume | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days
+2026-11-25,HIRU,0.00043,580911799.0,74.3,7.1,249792,14.7,23,17814,3,🟡 Mid-range,"🔁 4 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 3x in last 10 days"
+2026-11-25,SLDC,0.000705,3980000.0,72.6,23.7,2806,-21.7,14,2,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-25,IBGR,0.0006,8587376.0,62.4,7.9,5152,-14.3,17,392,2,🟢 Near 30d low (base),"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
+2026-11-25,EHVVF,0.0006,12126500.0,54.9,13.8,7276,0.0,17,6,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day"
+2026-11-25,AUNXF,0.0007,3865809.0,50.9,22.9,2706,-36.4,14,1,0,🟢 Near 30d low (base),
+2026-11-25,LBRG,0.0006,11793425.0,20.7,6.7,7076,-40.0,17,214,0,🟢 Near 30d low (base),
