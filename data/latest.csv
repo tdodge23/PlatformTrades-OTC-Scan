@@ -1,7 +1,5 @@
 date,ticker,close,volume,score,vol_ratio,dollar_vol,chg_pct,next_tick_pct,max_size,repeat_10d,where,reasons
-2026-11-25,HIRU,0.00043,580911799.0,74.3,7.1,249792,14.7,23,17814,3,🟡 Mid-range,"🔁 4 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 3x in last 10 days"
-2026-11-25,SLDC,0.000705,3980000.0,72.6,23.7,2806,-21.7,14,2,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?)"
-2026-11-25,IBGR,0.0006,8587376.0,62.4,7.9,5152,-14.3,17,392,2,🟢 Near 30d low (base),"🔁 3 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 🔂 Flagged 2x in last 10 days"
-2026-11-25,EHVVF,0.0006,12126500.0,54.9,13.8,7276,0.0,17,6,0,🟡 Mid-range,"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day"
-2026-11-25,AUNXF,0.0007,3865809.0,50.9,22.9,2706,-36.4,14,1,0,🟢 Near 30d low (base),
-2026-11-25,LBRG,0.0006,11793425.0,20.7,6.7,7076,-40.0,17,214,0,🟢 Near 30d low (base),
+2026-11-27,ASII,0.0001,60000000.0,116.9,77.7,6000,0.0,100,1,0,🔴 Near 30d high (extended),"🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-27,PRMMF,0.0001,25000000.0,99.1,29.5,2500,0.0,100,0,0,🟢 Near 30d low (base),"💤 Dormant ticker waking up | 🧲 Heavy volume, price barely moved (accumulation?)"
+2026-11-27,LBRG,0.0007,17158757.0,59.8,8.2,12011,16.7,14,300,1,🟢 Near 30d low (base),"🔁 2 straight days of 3x+ volume | 🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day | 🔂 Flagged 1x in last 10 days"
+2026-11-27,CBDW,0.00015,56675067.0,42.9,5.1,8501,0.0,67,0,0,🟢 Near 30d low (base),"🧲 Heavy volume, price barely moved (accumulation?) | 📈 Closed at high of day"
